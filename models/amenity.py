@@ -1,9 +1,10 @@
 #!/usr/bin/python3
 """Esta es la clase de amenidades"""
-import models
-from models.base_model import BaseModel, Base
-from sqlalchemy.orm import relationship
+#import models
+from models.base_model import BaseModel
+from sqlalchemy.orm import relationship,Base
 from sqlalchemy import Column, String
+
 # from models.place import place_amenity
 
 
